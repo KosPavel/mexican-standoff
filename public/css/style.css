@@ -1,0 +1,72 @@
+@font-face {
+	font-family: TF2_Build;
+	src: url(../fonts/TF2_Build.ttf);
+}
+
+* {
+	box-sizing: border-box;
+	font-family: TF2_Build, 'Comic Sans MS';
+	text-transform: uppercase;
+	color: white;
+	user-select: none;
+}
+
+body {
+	background-image: url(../img/standoff.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    cursor: url('../img/Crosshair.cur'), default;
+}
+
+form {
+	display: none;
+}
+
+input {
+	color: green;
+	margin: 10px 0px;
+	height: 50px;
+	width: 250px;
+	font-size: 30px;
+}
+
+.nickname {
+	background-color: rgba(0,0,0,0);
+}
+
+a {
+	text-decoration: none;
+	cursor: url('../img/Crosshair.cur'), default;
+}
+
+canvas {
+	display: none;
+}
+
+.menuButtons {
+	margin: 15% 20%;
+	display: flex;
+	flex-direction: row;
+}
+
+.button {
+	font-size: 25px;
+	margin: 10px;
+	padding: 2px 5px;
+}
+
+.btn-start {
+	background-color: rgba(86, 255, 12, 1);
+}
+
+.btn-stats {
+	background-color: rgba(255, 184, 35, 1);
+}
+
+.btn-return {
+	margin: 100px 0px;
+	background-color: green;
+}
