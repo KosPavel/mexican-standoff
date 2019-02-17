@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
-server.listen(80);
+server.listen(process.env.PORT || 80); //first var is for heroku
 
 const supp = require('./js/support.js');
 
