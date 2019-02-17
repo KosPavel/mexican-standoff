@@ -5,7 +5,6 @@ const server = require('http').Server(app);
 const io = require('socket.io')(server);
 server.listen(80);
 
-//connect js files
 const supp = require('./js/support.js');
 
 app.use(express.static('public'));
