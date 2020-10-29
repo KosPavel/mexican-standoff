@@ -12,7 +12,7 @@ app.use(express.static('public'));
 let sockets = {}; //ключ = сокет, значение = объект -> nick = имя
 let players = {}; //ник = {}, внутри все данные для отправки
 let heal = {x:0,y:0};
-let maxPlayers = 2; // 1..4 is allowed
+let maxPlayers = 4; // 1..4 is allowed
 const LIVES = 3;
 const PLAYER_SPEED = 4;
 const BULLET_SPEED = 7;
